@@ -6,3 +6,4 @@ __pycache__/
 .DS_Store
 BBA CA 6 Sem Practical Slip.pdf
 slips_raw.txt
+.gitignore
