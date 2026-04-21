@@ -1,4 +1,5 @@
 // Question: Write a ASP.Net pr ogram that gets user input such as the user name, mode of payment, appropriate credit card. After the user enters the appropriate values the Validation button validates the values entered. [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

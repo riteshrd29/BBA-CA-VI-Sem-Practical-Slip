@@ -1,4 +1,5 @@
 <%-- Question: Design a web application form in ASP.Net having loan amount, inte rest rate and duration fields. C alculate the simple interest and perform necessary validation i.e. Ensures data has been entered for each field. Checking for non -numeric value. Assume suitable web-form controls and perform necessary validation. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

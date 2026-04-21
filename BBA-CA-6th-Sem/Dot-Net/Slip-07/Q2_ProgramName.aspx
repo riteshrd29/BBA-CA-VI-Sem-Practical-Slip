@@ -1,4 +1,5 @@
 <%-- Question: Write a VB.NET program to create a table student (Roll No, SName, Class,City). Insert the records (Max: 5). Update city of students to ‘Pune’ whose city is ‘Mumbai’ and display updated records in GridView. --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

@@ -1,4 +1,5 @@
 <%-- Question: Write a VB.NET program to create teacher table (Tid, TName, subject) Insert the records (Max: 5). Search record of a teacher whose name is “Seeta” and display result. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

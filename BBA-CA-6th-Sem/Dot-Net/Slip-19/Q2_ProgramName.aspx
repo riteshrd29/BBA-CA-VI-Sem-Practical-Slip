@@ -1,4 +1,5 @@
 <%-- Question: "How is the book ASP.NET with C# by Wrox publication?" Give the user three choices : i)Good ii)Satisfactory iii)Bad. Provide a VOTE button. After user votes, present the result in percentage using labels next to the choices. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

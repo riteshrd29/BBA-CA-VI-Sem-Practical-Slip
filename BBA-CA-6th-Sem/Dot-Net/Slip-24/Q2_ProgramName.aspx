@@ -1,4 +1,5 @@
 <%-- Question: Write a VB.NET program to create Author table (aid, aname, book_ name). Insert the records (Max 5). Delete a record of author who has written “VB.NET book” and display remaining records on the data grid view. (Use MS Access to create db.) [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

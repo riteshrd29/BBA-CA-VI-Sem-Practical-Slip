@@ -1,4 +1,5 @@
 <%-- Question: Write a VB.NET program to accept the details of product (PID, PName, expiry_date, price). Store it into the database and display it on data grid view. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

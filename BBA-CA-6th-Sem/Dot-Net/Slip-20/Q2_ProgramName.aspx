@@ -1,4 +1,5 @@
 <%-- Question: Write a Web application in ASP.Net that generates the “IndexOutOfRange” exception when a button is clicked. Instead of displaying the above exception, it redirects the user to a custom error page. All the above should be done with the trace for the page being enabled. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

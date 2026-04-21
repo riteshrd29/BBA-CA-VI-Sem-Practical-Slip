@@ -1,4 +1,5 @@
 <%-- Question: Create a web application to insert 3 records inside the SQL database table having following fields ( DeptId, DeptName, EmpName, Salary). Update the salary for any one employee and increment it to 15% of the present salar y. Perform delete operation on one row of the database table. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

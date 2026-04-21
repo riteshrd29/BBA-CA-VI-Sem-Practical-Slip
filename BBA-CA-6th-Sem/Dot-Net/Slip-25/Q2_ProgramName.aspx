@@ -1,4 +1,5 @@
 <%-- Question: Create a Web Application in ASP.Net to display all the Empname and Deptid of the employee from the database using SQL source control and bind it to GridView. Database fields are(DeptId, DeptName, EmpName, Salary). [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

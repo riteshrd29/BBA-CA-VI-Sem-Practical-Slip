@@ -1,4 +1,5 @@
 // Question: Write a VB.NET program to check whether enter string is palindrome or not. [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

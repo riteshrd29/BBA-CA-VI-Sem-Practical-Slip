@@ -1,4 +1,5 @@
 // Question: Write a VB.NET program to accept sentences in text box and count the number of words and display the count in message box. [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

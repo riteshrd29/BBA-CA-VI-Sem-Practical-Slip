@@ -1,4 +1,5 @@
 // Question: Write a C#.Net application to display the vowels from a given String. [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

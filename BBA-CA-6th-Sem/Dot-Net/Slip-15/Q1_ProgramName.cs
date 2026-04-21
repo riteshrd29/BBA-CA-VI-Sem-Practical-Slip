@@ -1,4 +1,5 @@
 // Question: Write ASP.Net application to create a user control that contains a list of colors. Add a button to the Web Form which when clicked changes the color of the form to the color selected from the list. [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

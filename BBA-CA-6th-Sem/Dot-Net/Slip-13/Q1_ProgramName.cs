@@ -1,4 +1,5 @@
 // Question: Write a VB.net program for blinking an image. [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

@@ -1,4 +1,5 @@
 <%-- Question: Write a VB.NET program to accept the details Supplier (SupId, SupName, Phone No, Address) store it into the database and display it. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

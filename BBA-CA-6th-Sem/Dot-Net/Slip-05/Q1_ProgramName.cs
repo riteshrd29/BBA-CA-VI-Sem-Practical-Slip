@@ -1,4 +1,5 @@
 // Question: Write a VB.NET program to accept a character from keyboard and check whether it is vowel or consonant. Also display the case of that character. [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

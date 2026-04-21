@@ -1,4 +1,5 @@
 // Question: List of employees is available in listbox. Write ASP.Net application to add selected or all records from listbox to Textbox (assume multi-line property of textbox is true). [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

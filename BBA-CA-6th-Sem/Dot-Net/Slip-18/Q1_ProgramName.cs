@@ -1,4 +1,5 @@
 // Question: Write a VB.NET program to accept a number from user through input box and display its multiplication table into the list box. [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

@@ -1,4 +1,5 @@
 // Question: Write a program that demonstrates the use of primitive data types in C#. The program should also support the type conversion of : ● Integer to String ● String to Integer [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

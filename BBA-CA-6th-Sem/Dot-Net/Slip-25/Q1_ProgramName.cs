@@ -1,4 +1,5 @@
 // Question: Write a program in C#.Net to create a function to calculate the sum of the individual digits of a given number. [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

@@ -1,4 +1,5 @@
 <%-- Question: Write a C#.Net Program to accept and display ‘n’ customer’s details such as customer_no, Name, address ,itemno, quantity price . Display total price of all item. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

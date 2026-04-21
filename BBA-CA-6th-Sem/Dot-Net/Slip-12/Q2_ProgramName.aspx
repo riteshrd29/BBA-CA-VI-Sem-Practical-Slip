@@ -1,4 +1,5 @@
 <%-- Question: Write a VB.NET program to create player table (PID, PName, Game, no_of_matches). Insert records and update number of matches of ‘Rohit Sharma’ and display result in data grid view. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

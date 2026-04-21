@@ -1,4 +1,5 @@
 // Question: Design a VB.net form to pick a date from DateTimePicker Control and display day, month and year in separate text boxes. [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

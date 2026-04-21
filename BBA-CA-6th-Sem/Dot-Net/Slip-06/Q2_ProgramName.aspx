@@ -1,4 +1,5 @@
 <%-- Question: Write a VB.NET program to create movie table (Mv_Name, Release_year, Director). Insert the records (Max: 5). Delete the records of movies whose release year is 2022 and display appropriate message in message box. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

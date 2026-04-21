@@ -1,4 +1,5 @@
 <%-- Question: Write a VB.NET program to accept the details of customer (CName, Contact No, Email_id). Store it into the database with proper validation and display appropriate message by using Message box. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

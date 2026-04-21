@@ -1,4 +1,5 @@
 // Question: Write a Vb.Net program to move the Text “Pune University” continuously from Left to Right and Vice Versa. [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

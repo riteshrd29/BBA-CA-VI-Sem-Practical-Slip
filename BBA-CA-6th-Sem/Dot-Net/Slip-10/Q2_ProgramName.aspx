@@ -1,4 +1,5 @@
 <%-- Question: Write ASP.Net program to connect to the master database in SQL Server in the Page_Load event. When the connection is established, the message “Connection has been established” should be displayed in a label in the form . [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

@@ -1,4 +1,5 @@
 // Question: Write a program in C#.Net to read n numbers in an array and display it in reverse order. [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

@@ -1,4 +1,5 @@
 <%-- Question: Write a VB.NET program to create a table Patient (PID, PName, Contact No, Disease). Insert five records into table and display appropriate message in message box. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

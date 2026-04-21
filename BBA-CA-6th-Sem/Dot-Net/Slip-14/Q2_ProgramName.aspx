@@ -1,4 +1,5 @@
 <%-- Question: Write a C#.Net Program to define a class Person having members –name, address. Create a subclass called employee with member staffed, salary. Create ‘n’ objects of the Employee class and display all the details of the Employee. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

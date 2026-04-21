@@ -1,4 +1,5 @@
 <%-- Question: Write a C# Program to accept and display ‘n’ student’s details such as Roll. No, Name, marks in three subjects, using class. Display percentage of each student. [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

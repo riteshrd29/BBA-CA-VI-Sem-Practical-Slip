@@ -1,4 +1,5 @@
 <%-- Question: Create an application in ASP.Net that allows the user to enter a number in the textbox named "getnum". Check whether the number in the textbox "getnum" is palindrome or not. Print the message accordingly in the label control named lbldisplay when the user clicks on the button "check". [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>

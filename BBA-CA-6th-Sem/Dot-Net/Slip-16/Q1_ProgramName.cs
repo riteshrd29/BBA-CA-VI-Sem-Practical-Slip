@@ -1,4 +1,5 @@
 // Question: Write ASP.Net program to c reate a user control that receives the user name and password from the user and validates them. If the user name is "DYP" and the password is "Pimpri", then the user is authorized, otherwise not. [15 M]
+// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
 public class Q1_ProgramName {

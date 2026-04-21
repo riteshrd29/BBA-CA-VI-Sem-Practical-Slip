@@ -1,4 +1,5 @@
 <%-- Question: Write ASP.Net application for the following: 1. Create a table EMP(eno, ename, edesignation, salary, joindate) 2. Insert a Record. 3. Update a record [25 M] --%>
+<%-- Instruction: Use ASP.NET Web Forms with C# and the controls listed in README.txt. --%>
 <%@ Page Language="C#" AutoEventWireup="true" %>
 <%@ Import Namespace="System.Linq" %>
 <!DOCTYPE html>
