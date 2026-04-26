@@ -18,6 +18,11 @@ Ready-to-Run Files in this folder:
 - App_Data/README.txt
 - Q2_ProgramName.aspx.cs
 
+Direct Run (Visual Studio):
+1. Open Question2.sln.
+2. Select IIS Express for web project or project profile for console.
+3. Press F5 (Debug) or Ctrl+F5 (Run).
+
 Visual Studio Options to Select:
 1. File -> Open -> Web Site...
 2. In left panel choose: File System.

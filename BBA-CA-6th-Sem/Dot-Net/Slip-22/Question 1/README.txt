@@ -14,6 +14,11 @@ Ready-to-Run Files in this folder:
 - Q1_ProgramName.cs
 - Q1_ProgramName.csproj
 
+Direct Run (Visual Studio):
+1. Open Question1.sln.
+2. Select IIS Express for web project or project profile for console.
+3. Press F5 (Debug) or Ctrl+F5 (Run).
+
 Visual Studio Options to Select:
 1. Open Q1_ProgramName.csproj directly in Visual Studio 2022.
 2. If creating manually: Create a new project -> Console App (C#).
