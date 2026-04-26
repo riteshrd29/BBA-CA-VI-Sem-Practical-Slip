@@ -1,30 +1,32 @@
 Slip-20 | Dot-Net | Question 2
 
 Question:
-Write an ASP.NET page that throws IndexOutOfRangeException on button click,
-then redirects to a custom error page, with trace enabled.
+Generate IndexOutOfRangeException on button click and redirect to custom error page with trace enabled.
 
-Run Steps (Visual Studio):
-1. File -> Open -> Web Site -> File System.
-2. Open this folder and select IIS Express.
-3. Set Q2_ProgramName.aspx as Start Page.
-4. Press Ctrl+F5.
+Direct Run (One Folder):
+1. Open `Slip20Q2.sln` in Visual Studio 2022.
+2. Select IIS Express profile.
+3. Press F5 or Ctrl+F5.
 
-Toolbox Items Needed:
-- Button: 1 (ID: btnGenerateError)
-- Label: 1 (ID: lblInfo)
+Expected Output:
+1. `Q2_ProgramName.aspx` opens.
+2. Click `Generate Exception`.
+3. `IndexOutOfRangeException` occurs.
+4. App redirects to `Error.aspx`.
 
-What Should Happen:
-1. Open Q2_ProgramName.aspx.
-2. Click "Generate Exception".
-3. App throws IndexOutOfRangeException.
-4. App redirects to Error.aspx.
+Controls Used:
+- Button: `btnGenerateError`
+- Label: `lblInfo`
 
-Files Used:
-- Q2_ProgramName.aspx
-- Web.config
-- Error.aspx
+Important Files:
+- `Slip20Q2.sln`
+- `Slip20Q2.csproj`
+- `Q2_ProgramName.aspx`
+- `Q2_ProgramName.aspx.cs`
+- `Q2_ProgramName.aspx.designer.cs`
+- `Web.config`
+- `Error.aspx`
 
 Requirements:
-- Visual Studio (ASP.NET and web development workload)
+- Visual Studio 2022 with ASP.NET and web development workload
 - .NET Framework 4.8 Developer Pack
