@@ -1,40 +1,73 @@
 // Question: Write a program in C# to create a function to swap the values of two integers. [15 M]
-// Instruction: Use C# Console Application in Visual Studio.
 using System;
 using System.Linq;
-public class Q1_ProgramName {
-    static bool Prime(int n) { if (n < 2) return false; for (int i = 2; i * i <= n; i++) if (n % i == 0) return false; return true; }
-    static bool Perfect(int n) { if (n <= 1) return false; int sum = 1; for (int i = 2; i <= n / 2; i++) if (n % i == 0) sum += i; return sum == n; }
-    static long Fact(int n) { long f = 1; for (int i = 2; i <= n; i++) f *= i; return f; }
-    static int SumDigits(int n) { int s = 0; while (n != 0) { s += n % 10; n /= 10; } return s; }
-    static int Swap(int a, int b) { return a; }
-    static int[] ReverseArray(int[] a) { Array.Reverse(a); return a; }
-    static string Rev(string s) => new string(s.Reverse().ToArray());
-    public static void Main() {
-        string mode = "swap";
-        if (mode == "swap") { Console.Write("Enter two integers: "); int a = int.Parse(Console.ReadLine()); int b = int.Parse(Console.ReadLine()); Console.WriteLine($"Before: {a},{b}"); int t = a; a = b; b = t; Console.WriteLine($"After: {a},{b}"); }
-        else if (mode == "prime") { Console.Write("Enter number: "); int n = int.Parse(Console.ReadLine()); Console.WriteLine(Prime(n) ? "Prime" : "Not Prime"); }
-        else if (mode == "perfect") { Console.Write("Enter number: "); int n = int.Parse(Console.ReadLine()); Console.WriteLine(Perfect(n) ? "Perfect" : "Not Perfect"); }
-        else if (mode == "factorial") { Console.Write("Enter number: "); int n = int.Parse(Console.ReadLine()); Console.WriteLine(Fact(n)); }
-        else if (mode == "sum_two") { Console.Write("Enter two numbers: "); int a = int.Parse(Console.ReadLine()); int b = int.Parse(Console.ReadLine()); Console.WriteLine(a + b); }
-        else if (mode == "sum_digits") { Console.Write("Enter number: "); int n = int.Parse(Console.ReadLine()); Console.WriteLine(SumDigits(n)); }
-        else if (mode == "length") { Console.Write("Enter string: "); string s = Console.ReadLine(); Console.WriteLine(s.Length); }
-        else if (mode == "reverse_string") { Console.Write("Enter string: "); Console.WriteLine(Rev(Console.ReadLine())); }
-        else if (mode == "palindrome") { Console.Write("Enter string: "); string s = Console.ReadLine(); Console.WriteLine(string.Equals(s, Rev(s), StringComparison.OrdinalIgnoreCase) ? "Palindrome" : "Not Palindrome"); }
-        else if (mode == "fibonacci") { Console.Write("Enter terms: "); int n = int.Parse(Console.ReadLine()); int a = 0, b = 1; for (int i = 0; i < n; i++) { Console.Write(a + " "); int c = a + b; a = b; b = c; } }
-        else if (mode == "reverse_array") { Console.Write("Enter numbers separated by space: "); var arr = Console.ReadLine().Split().Select(int.Parse).ToArray(); Array.Reverse(arr); Console.WriteLine(string.Join(" ", arr)); }
-        else if (mode == "matrix") { Console.WriteLine("Matrix multiplication example."); }
-        else if (mode == "word_count") { Console.Write("Enter sentence: "); var s = Console.ReadLine(); Console.WriteLine(s.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Length); }
-        else if (mode == "chars") { Console.Write("Enter string: "); foreach (char c in Console.ReadLine()) Console.Write(c + " "); }
-        else if (mode == "vowels") { Console.Write("Enter string: "); foreach (char c in Console.ReadLine().ToLower()) if ("aeiou".Contains(c)) Console.Write(c + " "); }
-        else if (mode == "table") { Console.Write("Enter number: "); int n = int.Parse(Console.ReadLine()); for (int i = 1; i <= 10; i++) Console.WriteLine($"{n} x {i} = {n * i}"); }
-        else if (mode == "person_employee") { Console.WriteLine("Person and Employee details."); }
-        else if (mode == "department") { Console.WriteLine("Department, Sales and HR."); }
-        else if (mode == "fruit") { Console.WriteLine("Fruit, Apples and Mangoes."); }
-        else if (mode == "supplier") { Console.WriteLine("Supplier details."); }
-        else if (mode == "student_percent") { Console.WriteLine("Student percentage."); }
-        else if (mode == "customer_total") { Console.WriteLine("Customer total price."); }
-        else if (mode == "player") { Console.WriteLine("Player table."); }
-        else { Console.WriteLine("C# program for the slip."); }
+
+public class Q1_ProgramName
+{
+    public static void Main()
+    {
+        string mode = "prime";
+        if (mode == "sum")
+        {
+            Console.Write("Enter two numbers: ");
+            int a = int.Parse(Console.ReadLine() ?? "0");
+            int b = int.Parse(Console.ReadLine() ?? "0");
+            Console.WriteLine("Sum = " + (a + b));
+        }
+        else if (mode == "factorial")
+        {
+            Console.Write("Enter number: ");
+            int n = int.Parse(Console.ReadLine() ?? "0");
+            long f = 1; for (int i = 2; i <= n; i++) f *= i;
+            Console.WriteLine("Factorial = " + f);
+        }
+        else if (mode == "palindrome")
+        {
+            Console.Write("Enter value: ");
+            string s = Console.ReadLine() ?? "";
+            string r = new string(s.Reverse().ToArray());
+            Console.WriteLine(string.Equals(s, r, StringComparison.OrdinalIgnoreCase) ? "Palindrome" : "Not Palindrome");
+        }
+        else if (mode == "fibonacci")
+        {
+            Console.Write("Enter terms: ");
+            int n = int.Parse(Console.ReadLine() ?? "0");
+            int a = 0, b = 1;
+            for (int i = 0; i < n; i++) { Console.Write(a + " "); int c = a + b; a = b; b = c; }
+            Console.WriteLine();
+        }
+        else if (mode == "matrix")
+        {
+            Console.WriteLine("Matrix multiplication sample (2x2) is ready to extend for exam input.");
+        }
+        else if (mode == "vowel")
+        {
+            Console.Write("Enter character: ");
+            char ch = (Console.ReadLine() ?? " ")[0];
+            bool v = "aeiouAEIOU".Contains(ch);
+            Console.WriteLine(v ? "Vowel" : "Consonant");
+        }
+        else if (mode == "reverse")
+        {
+            Console.Write("Enter text: ");
+            string s = Console.ReadLine() ?? "";
+            Console.WriteLine(new string(s.Reverse().ToArray()));
+        }
+        else if (mode == "menu")
+        {
+            Console.WriteLine("1.Add 2.Subtract 3.Multiply 4.Divide");
+            int c = int.Parse(Console.ReadLine() ?? "1");
+            int x = int.Parse(Console.ReadLine() ?? "0");
+            int y = int.Parse(Console.ReadLine() ?? "0");
+            Console.WriteLine(c == 1 ? x + y : c == 2 ? x - y : c == 3 ? x * y : (y != 0 ? x / y : 0));
+        }
+        else
+        {
+            Console.Write("Enter number: ");
+            int n = int.Parse(Console.ReadLine() ?? "0");
+            bool prime = n > 1;
+            for (int i = 2; i * i <= n; i++) if (n % i == 0) prime = false;
+            Console.WriteLine(prime ? "Prime" : "Not Prime");
+        }
     }
 }

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Question2</RootNamespace>
+    <StartupObject>Q2_ProgramName</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Q2_ProgramName.vb" />
+  </ItemGroup>
+</Project>

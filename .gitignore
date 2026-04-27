@@ -7,3 +7,9 @@ __pycache__/
 slips_raw.txt
 .gitignore
 generate_repo.py
+
+# Visual Studio generated folders
+.vs/
+**/.vs/
+**/bin/
+**/obj/

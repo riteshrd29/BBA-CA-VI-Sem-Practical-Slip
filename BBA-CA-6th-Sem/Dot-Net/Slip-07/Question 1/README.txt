@@ -1,37 +1,22 @@
-Project Type:
-- Dot-Net
+Slip-07 | Dot-Net | Question 1
 
-Slip Number:
-- Slip-07
-
-Question Number:
-- Question 1
-
-Slip Question (From PDF):
-- Write a ASP.Net program to accept a number from the user in a textbox control and throw an exception if the number is not a perfect number. Assume suitable controls on the web form.
-
-Ready-to-Run Files in this folder:
-- Q1_ProgramName.cs
-- Q1_ProgramName.csproj
+Question:
+Write a ASP.Net program to accept a number from the user in a textbox control and throw an exception if the number is not a perfect number. Assume suitable controls on the web form.
 
 Direct Run (Visual Studio):
 1. Open Question1.sln.
-2. Select IIS Express for web project or project profile for console.
-3. Press F5 (Debug) or Ctrl+F5 (Run).
+2. Build the project.
+3. Press F5.
 
-Visual Studio Options to Select:
-1. Open Q1_ProgramName.csproj directly in Visual Studio 2022.
-2. If creating manually: Create a new project -> Console App (C#).
-3. Framework option: .NET 8.0 (recommended).
-4. Keep Program startup from Q1_ProgramName.cs and run with Ctrl+F5.
+Project Type:
+- WEB (C#)
 
-CLI Run Option:
-1. Open terminal in this folder.
-2. Run: dotnet run --project Q1_ProgramName.csproj
+Important Files:
+- Question1.sln
+- Question1.csproj
+- Default.aspx
+- Error.aspx
+- Web.config
 
-Design Tools (Toolbox) and Suggested Count:
-- No form design tools required (Console Application).
-
-Design Steps:
-1. Keep only code in Q1_ProgramName.cs (no drag-drop controls needed).
-2. Build and run using Ctrl+F5.
+Expected Output:
+- Run page and verify question-specific behavior appears on screen.

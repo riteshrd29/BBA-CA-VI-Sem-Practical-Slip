@@ -1,0 +1,15 @@
+* text=auto
+
+# Keep Visual Studio project files in CRLF on Windows.
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.vbproj text eol=crlf
+*.props text eol=crlf
+*.targets text eol=crlf
+*.config text eol=crlf
+*.aspx text eol=crlf
+*.vb text eol=crlf
+*.cs text eol=crlf
+*.Designer.vb text eol=crlf
+*.Designer.cs text eol=crlf
+*.resx text eol=crlf

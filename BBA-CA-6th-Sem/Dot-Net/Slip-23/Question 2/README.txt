@@ -1,52 +1,22 @@
-Project Type:
-- Dot-Net
+Slip-23 | Dot-Net | Question 2
 
-Slip Number:
-- Slip-23
-
-Question Number:
-- Question 2
-
-Slip Question (From PDF):
-- Create the application in ASP.Net that accepts name, password ,age , email id, and user id. All the information entry is compulsory. Password should be reconfirmed. Age should be within 21 to 30. Email id should be valid. User id should have at least a capital letter and digit as well as length should be between 7 and 20 characters. [25 M]
-
-Ready-to-Run Files in this folder:
-- Q2_ProgramName.aspx
-- Web.config
-- Default.aspx
-- Error.aspx
-- App_Data/README.txt
-- Q2_ProgramName.aspx.cs
+Question:
+Create the application in ASP.Net that accepts name, password ,age , email id, and user id. All the information entry is compulsory. Password should be reconfirmed. Age should be within 21 to 30. Email id should be valid. User id should have at least a capital letter and digit as well as length should be between 7 and 20 characters. [25 M]
 
 Direct Run (Visual Studio):
 1. Open Question2.sln.
-2. Select IIS Express for web project or project profile for console.
-3. Press F5 (Debug) or Ctrl+F5 (Run).
+2. Build the project.
+3. Press F5.
 
-Visual Studio Options to Select:
-1. File -> Open -> Web Site...
-2. In left panel choose: File System.
-3. Select this Question 2 folder and click Open.
-4. In toolbar choose IIS Express.
-5. Right-click Q2_ProgramName.aspx -> Set as Start Page.
-6. Press Ctrl+F5 to run.
+Project Type:
+- WEB (C#)
 
-Language and Form Components:
-- ASP.NET Web Forms with C#; controls used: TextBox, Password TextBox, Button, Label.
+Important Files:
+- Question2.sln
+- Question2.csproj
+- Default.aspx
+- Error.aspx
+- Web.config
 
-Design Tools (Toolbox) and Suggested Count:
-- TextBox: 4
-- Password TextBox: 1
-- Button: 1
-- Label: 1
-
-Design Steps:
-1. Open Q2_ProgramName.aspx in Design view.
-2. From Toolbox, drag the controls listed above.
-3. Set control IDs exactly as used in code (txt1, txt2, txt3, txt4, btn1, lbl1, etc.).
-4. Double-click the Button to create or connect btn1_Click event.
-5. Run with IIS Express (Ctrl+F5).
-
-Dependencies:
-- Visual Studio with ASP.NET and web development workload.
-- .NET Framework 4.8 Developer Pack.
+Expected Output:
+- Run page and verify question-specific behavior appears on screen.
