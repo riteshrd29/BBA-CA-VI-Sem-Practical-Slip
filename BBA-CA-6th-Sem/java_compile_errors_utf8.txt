@@ -1,0 +1,1178 @@
+﻿--------------------------------------
+Slip-02 - Question 1 - Q1_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-02\Question 
+1\Q1_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q1_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-02\Question 
+1\Q1_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q1_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-02\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-02\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-02\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-02\Question 
+1\Q1_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-02\Question 
+1\Q1_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-02\Question 
+1\Q1_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-02\Question 
+1\Q1_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-02\Question 
+1\Q1_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q1_ProgramName
+10 errors
+--------------------------------------
+Slip-04 - Question 2 - Q2_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-04\Question 
+2\Q2_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q2_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-04\Question 
+2\Q2_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q2_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-04\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-04\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-04\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-04\Question 
+2\Q2_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-04\Question 
+2\Q2_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-04\Question 
+2\Q2_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-04\Question 
+2\Q2_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-04\Question 
+2\Q2_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q2_ProgramName
+10 errors
+--------------------------------------
+Slip-05 - Question 1 - Q1_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-05\Question 
+1\Q1_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q1_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-05\Question 
+1\Q1_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q1_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-05\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-05\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-05\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-05\Question 
+1\Q1_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-05\Question 
+1\Q1_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-05\Question 
+1\Q1_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-05\Question 
+1\Q1_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-05\Question 
+1\Q1_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q1_ProgramName
+10 errors
+--------------------------------------
+Slip-06 - Question 2 - Q2_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-06\Question 
+2\Q2_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q2_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-06\Question 
+2\Q2_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q2_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-06\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-06\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-06\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-06\Question 
+2\Q2_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-06\Question 
+2\Q2_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-06\Question 
+2\Q2_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-06\Question 
+2\Q2_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-06\Question 
+2\Q2_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q2_ProgramName
+10 errors
+--------------------------------------
+Slip-07 - Question 1 - Q1_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-07\Question 
+1\Q1_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q1_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-07\Question 
+1\Q1_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q1_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-07\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-07\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-07\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-07\Question 
+1\Q1_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-07\Question 
+1\Q1_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-07\Question 
+1\Q1_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-07\Question 
+1\Q1_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-07\Question 
+1\Q1_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q1_ProgramName
+10 errors
+--------------------------------------
+Slip-09 - Question 2 - Q2_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-09\Question 
+2\Q2_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q2_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-09\Question 
+2\Q2_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q2_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-09\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-09\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-09\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-09\Question 
+2\Q2_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-09\Question 
+2\Q2_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-09\Question 
+2\Q2_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-09\Question 
+2\Q2_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-09\Question 
+2\Q2_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q2_ProgramName
+10 errors
+--------------------------------------
+Slip-10 - Question 2 - Q2_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-10\Question 
+2\Q2_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q2_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-10\Question 
+2\Q2_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q2_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-10\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-10\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-10\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-10\Question 
+2\Q2_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-10\Question 
+2\Q2_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-10\Question 
+2\Q2_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-10\Question 
+2\Q2_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-10\Question 
+2\Q2_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q2_ProgramName
+10 errors
+--------------------------------------
+Slip-13 - Question 2 - Q2_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-13\Question 
+2\Q2_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q2_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-13\Question 
+2\Q2_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q2_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-13\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-13\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-13\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-13\Question 
+2\Q2_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-13\Question 
+2\Q2_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-13\Question 
+2\Q2_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-13\Question 
+2\Q2_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-13\Question 
+2\Q2_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q2_ProgramName
+10 errors
+--------------------------------------
+Slip-14 - Question 1 - Q1_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-14\Question 
+1\Q1_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q1_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-14\Question 
+1\Q1_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q1_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-14\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-14\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-14\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-14\Question 
+1\Q1_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-14\Question 
+1\Q1_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-14\Question 
+1\Q1_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-14\Question 
+1\Q1_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-14\Question 
+1\Q1_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q1_ProgramName
+10 errors
+--------------------------------------
+Slip-16 - Question 1 - Q1_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-16\Question 
+1\Q1_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q1_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-16\Question 
+1\Q1_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q1_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-16\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-16\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-16\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-16\Question 
+1\Q1_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-16\Question 
+1\Q1_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-16\Question 
+1\Q1_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-16\Question 
+1\Q1_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-16\Question 
+1\Q1_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q1_ProgramName
+10 errors
+--------------------------------------
+Slip-19 - Question 1 - Q1_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-19\Question 
+1\Q1_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q1_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-19\Question 
+1\Q1_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q1_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-19\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-19\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-19\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-19\Question 
+1\Q1_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-19\Question 
+1\Q1_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-19\Question 
+1\Q1_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-19\Question 
+1\Q1_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-19\Question 
+1\Q1_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q1_ProgramName
+10 errors
+--------------------------------------
+Slip-21 - Question 2 - Q2_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-21\Question 
+2\Q2_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q2_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-21\Question 
+2\Q2_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q2_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-21\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-21\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-21\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-21\Question 
+2\Q2_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-21\Question 
+2\Q2_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-21\Question 
+2\Q2_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-21\Question 
+2\Q2_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-21\Question 
+2\Q2_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q2_ProgramName
+10 errors
+--------------------------------------
+Slip-22 - Question 2 - Q2_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-22\Question 
+2\Q2_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q2_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-22\Question 
+2\Q2_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q2_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-22\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-22\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-22\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-22\Question 
+2\Q2_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-22\Question 
+2\Q2_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-22\Question 
+2\Q2_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-22\Question 
+2\Q2_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-22\Question 
+2\Q2_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q2_ProgramName
+10 errors
+--------------------------------------
+Slip-23 - Question 2 - Q2_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-23\Question 
+2\Q2_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q2_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-23\Question 
+2\Q2_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q2_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-23\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-23\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-23\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-23\Question 
+2\Q2_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-23\Question 
+2\Q2_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-23\Question 
+2\Q2_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-23\Question 
+2\Q2_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-23\Question 
+2\Q2_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q2_ProgramName
+10 errors
+--------------------------------------
+Slip-24 - Question 1 - Q1_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-24\Question 
+1\Q1_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q1_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-24\Question 
+1\Q1_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q1_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-24\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-24\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-24\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-24\Question 
+1\Q1_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-24\Question 
+1\Q1_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-24\Question 
+1\Q1_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-24\Question 
+1\Q1_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-24\Question 
+1\Q1_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q1_ProgramName
+10 errors
+--------------------------------------
+Slip-26 - Question 2 - Q2_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-26\Question 
+2\Q2_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q2_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-26\Question 
+2\Q2_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q2_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-26\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-26\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-26\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-26\Question 
+2\Q2_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-26\Question 
+2\Q2_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-26\Question 
+2\Q2_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-26\Question 
+2\Q2_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-26\Question 
+2\Q2_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q2_ProgramName
+10 errors
+--------------------------------------
+Slip-27 - Question 1 - Q1_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-27\Question 
+1\Q1_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q1_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-27\Question 
+1\Q1_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q1_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-27\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-27\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-27\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-27\Question 
+1\Q1_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-27\Question 
+1\Q1_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-27\Question 
+1\Q1_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-27\Question 
+1\Q1_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-27\Question 
+1\Q1_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q1_ProgramName
+10 errors
+--------------------------------------
+Slip-29 - Question 2 - Q2_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-29\Question 
+2\Q2_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q2_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-29\Question 
+2\Q2_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q2_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-29\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-29\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-29\Question 
+2\Q2_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-29\Question 
+2\Q2_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-29\Question 
+2\Q2_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-29\Question 
+2\Q2_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-29\Question 
+2\Q2_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q2_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-29\Question 
+2\Q2_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q2_ProgramName
+10 errors
+--------------------------------------
+Slip-30 - Question 1 - Q1_ProgramName.java:
+javac : C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-30\Question 
+1\Q1_ProgramName.java:9: error: cannot find symbol
+At line:10 char:34
++                 $compileOutput = javac $jf.FullName 2>&1
++                                  ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Ritesh...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public class Q1_ProgramName extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-30\Question 
+1\Q1_ProgramName.java:8: error: cannot find symbol
+@WebServlet("/Q1_ProgramName")
+ ^
+  symbol: class WebServlet
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-30\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                         ^
+  symbol:   class HttpServletRequest
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-30\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-30\Question 
+1\Q1_ProgramName.java:15: error: cannot find symbol
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+                                                                                  ^
+  symbol:   class ServletException
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-30\Question 
+1\Q1_ProgramName.java:5: error: package javax.servlet does not exist
+import javax.servlet.*;
+            ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-30\Question 
+1\Q1_ProgramName.java:6: error: package javax.servlet.annotation does not exist
+import javax.servlet.annotation.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-30\Question 
+1\Q1_ProgramName.java:7: error: package javax.servlet.http does not exist
+import javax.servlet.http.*;
+                    ^
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-30\Question 
+1\Q1_ProgramName.java:29: error: cannot find symbol
+            HttpSession s = req.getSession();
+            ^
+  symbol:   class HttpSession
+  location: class Q1_ProgramName
+C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Advanced-Java\Slip-30\Question 
+1\Q1_ProgramName.java:45: error: cannot find symbol
+            if (h != null) { resp.addCookie(new Cookie("hobby", h)); out.println("Saved: " + h); } else 
+out.println("Select a hobby");
+                                                ^
+  symbol:   class Cookie
+  location: class Q1_ProgramName
+10 errors

@@ -1,0 +1,1440 @@
+﻿--------------------------------------
+Slip-01 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:21 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 1\Question1.vbproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 1\Question1.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 1\Question1.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 1\Question1.vbproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 1\Question1.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.20
+--------------------------------------
+Slip-01 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:21 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 2\Question2.vbproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 2\Question2.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 2\Question2.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 2\Question2.vbproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-01\Question 2\Question2.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.09
+--------------------------------------
+Slip-02 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:21 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 1\Question1.vbproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 1\Question1.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 1\Question1.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 1\Question1.vbproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 1\Question1.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.57
+--------------------------------------
+Slip-02 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:22 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 2\Question2.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-02\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.09
+--------------------------------------
+Slip-03 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:22 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 1\Question1.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.43
+--------------------------------------
+Slip-03 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:22 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 2\Question2.vbproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 2\Question2.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 2\Question2.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 2\Question2.vbproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-03\Question 2\Question2.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.43
+--------------------------------------
+Slip-04 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:23 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 1\Question1.vbproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 1\Question1.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 1\Question1.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 1\Question1.vbproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 1\Question1.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.11
+--------------------------------------
+Slip-04 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:23 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 2\Question2.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-04\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.12
+--------------------------------------
+Slip-05 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:24 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 1\Question1.vbproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 1\Question1.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 1\Question1.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 1\Question1.vbproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 1\Question1.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.82
+--------------------------------------
+Slip-05 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:25 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 2\Question2.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-05\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.19
+--------------------------------------
+Slip-06 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:25 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 1\Question1.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.20
+--------------------------------------
+Slip-06 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:26 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 2\Question2.vbproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 2\Question2.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 2\Question2.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 2\Question2.vbproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-06\Question 2\Question2.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.21
+--------------------------------------
+Slip-07 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:26 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 1\Question1.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.20
+--------------------------------------
+Slip-07 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:26 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 2\Question2.vbproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 2\Question2.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 2\Question2.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 2\Question2.vbproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-07\Question 2\Question2.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.20
+--------------------------------------
+Slip-08 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:27 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 1\Question1.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.19
+--------------------------------------
+Slip-08 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:27 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 2\Question2.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-08\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.93
+--------------------------------------
+Slip-09 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:28 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 1\Question1.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.19
+--------------------------------------
+Slip-09 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:29 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 2\Question2.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-09\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.26
+--------------------------------------
+Slip-10 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:29 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 1\Question1.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.93
+--------------------------------------
+Slip-10 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:31 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 2\Question2.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-10\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.18
+--------------------------------------
+Slip-11 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:31 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 1\Question1.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.18
+--------------------------------------
+Slip-11 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:31 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 2\Question2.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-11\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.86
+--------------------------------------
+Slip-12 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:32 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 1\Question1.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.16
+--------------------------------------
+Slip-12 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:33 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 2\Question2.vbproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 2\Question2.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 2\Question2.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 2\Question2.vbproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-12\Question 2\Question2.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.84
+--------------------------------------
+Slip-13 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:34 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 1\Question1.vbproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 1\Question1.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 1\Question1.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 1\Question1.vbproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 1\Question1.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.82
+--------------------------------------
+Slip-13 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:35 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 2\Question2.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-13\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.79
+--------------------------------------
+Slip-14 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:36 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 1\Question1.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.78
+--------------------------------------
+Slip-14 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:37 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 2\Question2.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-14\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.78
+--------------------------------------
+Slip-15 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:38 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 1\Question1.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.15
+--------------------------------------
+Slip-15 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:38 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 2\Question2.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-15\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.79
+--------------------------------------
+Slip-16 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:39 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 1\Question1.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.16
+--------------------------------------
+Slip-16 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:40 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 2\Question2.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-16\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.83
+--------------------------------------
+Slip-17 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:41 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 1\Question1.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.82
+--------------------------------------
+Slip-17 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:42 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 2\Question2.vbproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 2\Question2.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 2\Question2.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 2\Question2.vbproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-17\Question 2\Question2.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.79
+--------------------------------------
+Slip-18 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:43 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 1\Question1.vbproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 1\Question1.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 1\Question1.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 1\Question1.vbproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 1\Question1.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.77
+--------------------------------------
+Slip-18 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:44 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 2\Question2.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-18\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.15
+--------------------------------------
+Slip-19 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:44 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 1\Question1.vbproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 1\Question1.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 1\Question1.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 1\Question1.vbproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 1\Question1.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.79
+--------------------------------------
+Slip-19 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:45 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 2\Question2.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-19\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.15
+--------------------------------------
+Slip-20 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:45 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 1\Question1.vbproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 1\Question1.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 1\Question1.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 1\Question1.vbproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 1\Question1.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.15
+--------------------------------------
+Slip-20 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:46 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 2\Question2.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-20\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.16
+--------------------------------------
+Slip-21 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:46 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 1\Question1.vbproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 1\Question1.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 1\Question1.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 1\Question1.vbproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 1\Question1.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.15
+--------------------------------------
+Slip-21 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:46 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 2\Question2.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-21\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.15
+--------------------------------------
+Slip-22 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:47 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 1\Question1.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.76
+--------------------------------------
+Slip-22 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:48 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 2\Question2.vbproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 2\Question2.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 2\Question2.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 2\Question2.vbproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-22\Question 2\Question2.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.16
+--------------------------------------
+Slip-23 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:48 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 1\Question1.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.76
+--------------------------------------
+Slip-23 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:49 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 2\Question2.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-23\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.15
+--------------------------------------
+Slip-24 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:49 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 1\Question1.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.76
+--------------------------------------
+Slip-24 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:50 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 2\Question2.vbproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 2\Question2.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 2\Question2.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 2\Question2.vbproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-24\Question 2\Question2.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.85
+--------------------------------------
+Slip-25 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:51 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 1\Question1.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.78
+--------------------------------------
+Slip-25 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:52 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 2\Question2.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-25\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.15
+--------------------------------------
+Slip-26 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:53 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 1\Question1.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.79
+--------------------------------------
+Slip-26 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:54 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 2\Question2.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-26\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.15
+--------------------------------------
+Slip-27 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:54 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 1\Question1.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.76
+--------------------------------------
+Slip-27 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:55 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 2\Question2.csproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 2\Question2.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 2\Question2.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 2\Question2.csproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.csproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-27\Question 2\Question2.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.15
+--------------------------------------
+Slip-28 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:55 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 1\Question1.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.76
+--------------------------------------
+Slip-28 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:56 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 2\Question2.vbproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 2\Question2.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 2\Question2.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 2\Question2.vbproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-28\Question 2\Question2.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.15
+--------------------------------------
+Slip-29 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:56 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 1\Question1.csproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 1\Question1.csproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 1\Question1.csproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 1\Question1.csproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q1_ProgramName.cs' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 1\Question1.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.76
+--------------------------------------
+Slip-29 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:57 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 2\Question2.vbproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 2\Question2.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 2\Question2.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 2\Question2.vbproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question2.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-29\Question 2\Question2.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.15
+--------------------------------------
+Slip-30 - Question 1 - Question1.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:58 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 1\Question1.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 1\Question1.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 1\Question1.vbproj" (2) on node 1 (default targets).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 1\Question1.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 1\Question1.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 1\Question1.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 1\Question1.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 1\Question1.vbproj" (default target) (2) ->
+(_CheckForInvalidConfigurationAndPlatform target) -> 
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(843,5): error : The BaseOutputPath/OutputPath property is not set for project 'Question1.vbproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='AnyCPU'. You may be seeing this message because you are trying to build a project without a solution file, and have specified a non-default Configuration or Platform that doesn't exist for this project. [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 1\Question1.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.15
+--------------------------------------
+Slip-30 - Question 2 - Question2.sln:
+MSBuild version 18.5.4+cb4e32d21 for .NET Framework
+Build started 27-04-2026 09:22:58 PM.
+
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 2\Question2.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 2\Question2.sln" (1) is building "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 2\Question2.vbproj" (2) on node 1 (default targets).
+C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 2\Question2.vbproj]
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 2\Question2.vbproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 2\Question2.sln" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 2\Question2.sln" (Build target) (1) ->
+"C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 2\Question2.vbproj" (default target) (2) ->
+(CheckForDuplicateItems target) -> 
+  C:\Program Files\dotnet\sdk\10.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(190,5): error NETSDK1022: Duplicate 'Compile' items were included. The .NET SDK includes 'Compile' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultCompileItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Q2_ProgramName.vb' [C:\Users\Ritesh\Desktop\BBA CA VI Sem Practical Slip\BBA-CA-6th-Sem\Dot-Net\Slip-30\Question 2\Question2.vbproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.76
