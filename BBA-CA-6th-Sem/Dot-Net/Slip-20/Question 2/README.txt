@@ -19,8 +19,8 @@ Controls Used:
 - Label: `lblInfo`
 
 Important Files:
-- `Slip20Q2.sln`
-- `Slip20Q2.csproj`
+- `Question2.sln`
+- `Question2.csproj`
 - `Q2_ProgramName.aspx`
 - `Q2_ProgramName.aspx.cs`
 - `Q2_ProgramName.aspx.designer.cs`
