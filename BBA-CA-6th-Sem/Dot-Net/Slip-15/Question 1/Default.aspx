@@ -1,20 +1,27 @@
-<%-- Question: Write ASP.Net application to create a user control that contains a list of colors. Add a button to the Web Form which when clicked changes the color of the form to the color selected from the list. [15 M] --%>
 <%@ Page Language="C#" Trace="true" %>
+<%-- Question: Write ASP.Net application to create a user control that contains a list of colors. Add a button to the Web Form which when clicked changes the color of the form to the color selected from the list. [15 M] --%>
 <!DOCTYPE html>
 <html>
-<head><title>Default</title></head>
+<head>
+    <title>Color Selector</title>
+</head>
 <body>
-
 <form id="form1" runat="server">
-    <h3>Web Form</h3>
-    <asp:TextBox ID="txt1" runat="server"></asp:TextBox>
-    <asp:Button ID="btnRun" runat="server" Text="Run" OnClick="btnRun_Click" />
-    <asp:Label ID="lblOut" runat="server"></asp:Label>
+    <div id="pageBody" runat="server">
+        <h3>Select a Color</h3>
+        <asp:DropDownList ID="ddlColors" runat="server">
+            <asp:ListItem>LightBlue</asp:ListItem>
+            <asp:ListItem>LightGreen</asp:ListItem>
+            <asp:ListItem>LightYellow</asp:ListItem>
+            <asp:ListItem>LightPink</asp:ListItem>
+        </asp:DropDownList>
+        <asp:Button ID="btnChange" runat="server" Text="Change Color" OnClick="btnChange_Click" />
+    </div>
 </form>
 <script runat="server">
-    protected void btnRun_Click(object sender, EventArgs e)
+    protected void btnChange_Click(object sender, EventArgs e)
     {
-        lblOut.Text = "Web form executed successfully.";
+        pageBody.Style["background-color"] = ddlColors.SelectedValue;
     }
 </script>
 </body>

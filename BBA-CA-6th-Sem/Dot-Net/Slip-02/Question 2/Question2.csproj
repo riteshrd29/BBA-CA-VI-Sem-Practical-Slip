@@ -10,6 +10,9 @@
     <RootNamespace>QuestionWin</RootNamespace>
     <AssemblyName>Question2</AssemblyName>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
@@ -17,8 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="Q2_ProgramName.cs"><SubType>Form</SubType></Compile>
-    <Compile Include="Q2_ProgramName.Designer.cs"><DependentUpon>Q2_ProgramName.cs</DependentUpon></Compile>
+    <Compile Include="Q2_ProgramName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Q2_ProgramName.Designer.cs">
+      <DependentUpon>Q2_ProgramName.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

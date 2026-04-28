@@ -1,11 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Question1</RootNamespace>
-    <StartupObject>Q1_ProgramName</StartupObject>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>QuestionWin</RootNamespace>
+    <AssemblyName>Question1</AssemblyName>
+    <StartupObject>QuestionWin.Q1_ProgramName</StartupObject>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="Q1_ProgramName.vb" />
-  </ItemGroup>
 </Project>

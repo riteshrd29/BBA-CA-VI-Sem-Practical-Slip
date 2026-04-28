@@ -18,6 +18,9 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Content Include="Default.aspx" />
     <Content Include="Error.aspx" />
     <Content Include="Web.config" />

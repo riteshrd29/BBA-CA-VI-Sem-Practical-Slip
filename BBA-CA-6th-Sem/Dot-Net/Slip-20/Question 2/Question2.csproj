@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5F758763-A9BD-5E15-8702-BE5C203A4F2F}</ProjectGuid>
+    <ProjectGuid>{9A71E6F2-E3A5-5C48-869C-B66564F0455A}</ProjectGuid>
     <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>QuestionWeb</RootNamespace>
@@ -18,6 +18,9 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Content Include="Default.aspx" />
     <Content Include="Error.aspx" />
     <Content Include="Web.config" />

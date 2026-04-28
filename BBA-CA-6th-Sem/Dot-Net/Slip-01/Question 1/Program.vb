@@ -1,4 +1,5 @@
 ' Question: Write a VB.Net Program to display the numbers continuously in TextBox by clicking on Button. [15 M]
+Imports System
 Imports System.Windows.Forms
 
 Public Partial Class Program

@@ -1,23 +1,49 @@
-<%-- Question: Write a ASP.Net program to accept a number from the user in a textbox control and throw an exception if the number is not a perfect number. Assume suitable controls on the web form. --%>
 <%@ Page Language="C#" Trace="true" %>
+<%-- Question: Write a ASP.Net program to accept a number from the user in a textbox control and throw an exception if the number is not a perfect number. Assume suitable controls on the web form. --%>
 <!DOCTYPE html>
 <html>
-<head><title>Default</title></head>
+<head>
+    <title>Perfect Number Check</title>
+</head>
 <body>
-
 <form id="form1" runat="server">
-    <h3>Perfect Number Exception Check</h3>
-    <asp:TextBox ID="txtNum" runat="server"></asp:TextBox>
-    <asp:Button ID="btnRun" runat="server" Text="Check" OnClick="btnRun_Click" />
-    <asp:Label ID="lblOut" runat="server"></asp:Label>
+    <h3>Perfect Number Checker</h3>
+    <asp:TextBox ID="txtNumber" runat="server" />
+    <asp:Button ID="btnCheck" runat="server" Text="Check" OnClick="btnCheck_Click" />
+    <br /><br />
+    <asp:Label ID="lblResult" runat="server" />
 </form>
 <script runat="server">
-    bool IsPerfect(int n){ if(n<=1) return false; int s=1; for(int i=2;i<=n/2;i++) if(n%i==0) s+=i; return s==n; }
-    protected void btnRun_Click(object sender, EventArgs e)
+    protected void btnCheck_Click(object sender, EventArgs e)
     {
-        int n = int.Parse(txtNum.Text);
-        if (!IsPerfect(n)) throw new Exception("Not a perfect number");
-        lblOut.Text = "Perfect Number";
+        try
+        {
+            int number;
+            if (!int.TryParse(txtNumber.Text, out number))
+            {
+                throw new Exception("Enter a valid integer.");
+            }
+
+            int sum = 0;
+            for (int i = 1; i <= number / 2; i++)
+            {
+                if (number % i == 0)
+                {
+                    sum += i;
+                }
+            }
+
+            if (sum != number)
+            {
+                throw new Exception(number + " is not a perfect number.");
+            }
+
+            lblResult.Text = number + " is a perfect number.";
+        }
+        catch (Exception ex)
+        {
+            lblResult.Text = ex.Message;
+        }
     }
 </script>
 </body>

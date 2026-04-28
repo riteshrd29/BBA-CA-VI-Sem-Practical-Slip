@@ -1,12 +1,33 @@
-' Question: Write a Vb.Net program to move the Text “Pune University” continuously from Left to Right and Vice Versa. [15 M]
+' Question: Write a VB.Net program to move the text "Pune University" continuously from Left to Right and Vice Versa. [15 M]
 Imports System
-Imports System.Linq
+Imports System.Windows.Forms
 
-Module Q1_ProgramName
-    Sub Main()
-        Console.Write("Enter value: ")
-        Dim s As String = Console.ReadLine()
-        Console.WriteLine("Input = " & s)
-        Console.WriteLine("This is exam-ready VB.NET console template. Add exact logic as needed.")
+Public Partial Class Q1_ProgramName
+    Inherits Form
+
+    Private movingRight As Boolean = True
+    Private Const StepSize As Integer = 5
+
+    Public Sub New()
+        InitializeComponent()
     End Sub
-End Module
+
+    Private Sub Q1_ProgramName_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        lblMovingText.Left = 0
+        animationTimer.Start()
+    End Sub
+
+    Private Sub animationTimer_Tick(sender As Object, e As EventArgs) Handles animationTimer.Tick
+        If movingRight Then
+            lblMovingText.Left += StepSize
+            If lblMovingText.Right >= ClientSize.Width Then
+                movingRight = False
+            End If
+        Else
+            lblMovingText.Left -= StepSize
+            If lblMovingText.Left <= 0 Then
+                movingRight = True
+            End If
+        End If
+    End Sub
+End Class

@@ -2,25 +2,45 @@
 <%@ Page Language="C#" Trace="true" %>
 <!DOCTYPE html>
 <html>
-<head><title>Default</title></head>
+<head>
+    <title>Employee List</title>
+</head>
 <body>
-
 <form id="form1" runat="server">
-    <h3>ListBox to TextBox</h3>
-    <asp:ListBox ID="lstEmp" runat="server" SelectionMode="Multiple">
+    <h3>Employees</h3>
+    <asp:ListBox ID="lstEmployees" runat="server" SelectionMode="Multiple">
         <asp:ListItem>Amit</asp:ListItem>
-        <asp:ListItem>Seeta</asp:ListItem>
-        <asp:ListItem>Ravi</asp:ListItem>
-    </asp:ListBox><br />
-    <asp:Button ID="btnRun" runat="server" Text="Copy" OnClick="btnRun_Click" />
-    <asp:TextBox ID="txtOut" runat="server" TextMode="MultiLine" Rows="4" Columns="30"></asp:TextBox>
+        <asp:ListItem>Bhavna</asp:ListItem>
+        <asp:ListItem>Chirag</asp:ListItem>
+        <asp:ListItem>Divya</asp:ListItem>
+        <asp:ListItem>Ekta</asp:ListItem>
+    </asp:ListBox>
+    <br /><br />
+    <asp:Button ID="btnSelected" runat="server" Text="Add Selected" OnClick="btnSelected_Click" />
+    <asp:Button ID="btnAll" runat="server" Text="Add All" OnClick="btnAll_Click" />
+    <br /><br />
+    <asp:TextBox ID="txtOutput" runat="server" TextMode="MultiLine" Rows="10" Columns="40" />
 </form>
 <script runat="server">
-    protected void btnRun_Click(object sender, EventArgs e)
+    protected void btnSelected_Click(object sender, EventArgs e)
     {
-        System.Text.StringBuilder sb = new System.Text.StringBuilder();
-        foreach (System.Web.UI.WebControls.ListItem it in lstEmp.Items) if (it.Selected) sb.AppendLine(it.Text);
-        txtOut.Text = sb.ToString();
+        txtOutput.Text = string.Empty;
+        foreach (ListItem item in lstEmployees.Items)
+        {
+            if (item.Selected)
+            {
+                txtOutput.Text += item.Text + Environment.NewLine;
+            }
+        }
+    }
+
+    protected void btnAll_Click(object sender, EventArgs e)
+    {
+        txtOutput.Text = string.Empty;
+        foreach (ListItem item in lstEmployees.Items)
+        {
+            txtOutput.Text += item.Text + Environment.NewLine;
+        }
     }
 </script>
 </body>

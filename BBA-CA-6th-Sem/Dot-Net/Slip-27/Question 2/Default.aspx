@@ -1,21 +1,26 @@
-<%-- Question: Create a web application in ASP.Net which may have a textbox. Now user must type some data into it, the data he can enter is only 255 characters. After he crosses the limit then the last word should not by typed and at the same time color of textbox should be red. [25 M] --%>
-<%@ Page Language="C#" Trace="true" %>
+<%-- Question: Create a web application in ASP.Net which may have a textbox. Now user must type some data into it, the data he can enter is only 255 characters. After he crosses the limit then the last word should not be typed and at the same time color of textbox should be red. [25 M] --%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="QuestionWeb._Default" Trace="true" %>
 <!DOCTYPE html>
 <html>
-<head><title>Default</title></head>
+<head runat="server">
+    <title>Textbox Limit</title>
+    <script type="text/javascript">
+        function limitText(tb) {
+            if (tb.value.length > 255) {
+                tb.value = tb.value.substring(0, 255);
+                tb.style.backgroundColor = 'red';
+            } else {
+                tb.style.backgroundColor = 'white';
+            }
+        }
+    </script>
+</head>
 <body>
-
-<form id="form1" runat="server">
-    <h3>Web Form</h3>
-    <asp:TextBox ID="txt1" runat="server"></asp:TextBox>
-    <asp:Button ID="btnRun" runat="server" Text="Run" OnClick="btnRun_Click" />
-    <asp:Label ID="lblOut" runat="server"></asp:Label>
-</form>
-<script runat="server">
-    protected void btnRun_Click(object sender, EventArgs e)
-    {
-        lblOut.Text = "Web form executed successfully.";
-    }
-</script>
+    <form id="form1" runat="server">
+        <div>
+            <h3>Limited Textbox</h3>
+            <asp:TextBox ID="txtData" runat="server" TextMode="MultiLine" Rows="8" Columns="60" onkeyup="limitText(this);" />
+        </div>
+    </form>
 </body>
 </html>

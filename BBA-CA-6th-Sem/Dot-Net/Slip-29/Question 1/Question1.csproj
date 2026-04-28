@@ -5,7 +5,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="Q1_ProgramName.cs" />
-  </ItemGroup>
 </Project>
