@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'war'  // For web applications
+}
+
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+
+sourceCompatibility = '11'
+targetCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Servlet API (provided scope - servlet container provides this)
+    compileOnly 'javax.servlet:javax.servlet-api:4.0.1'
+    
+    // MySQL Connector
+    implementation 'mysql:mysql-connector-java:8.0.33'
+    
+    // For testing
+    testImplementation 'junit:junit:4.13.2'
+}
+
+war {
+    archiveName = 'bba-ca-webapp.war'
+}

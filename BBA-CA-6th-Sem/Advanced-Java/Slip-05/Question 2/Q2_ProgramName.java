@@ -1,68 +1,129 @@
-// Question: Write a java program in multithreading using applet for Traffic signal. [25 M]
-public class Q2_ProgramName {
-    static class Worker extends Thread {
-        String task;
-        Worker(String name, String task) { super(name); this.task = task; }
-        public void run() {
+// Question: Write a java program in multithreading using Swing for Traffic signal. [25 M]
+import javax.swing.*;
+import java.awt.*;
+
+public class Q2_ProgramName extends JPanel implements Runnable {
+    private Thread redThread, yellowThread, greenThread;
+    private Color currentLight = Color.RED;
+    private int lightTimer = 0;
+    
+    public Q2_ProgramName() {
+        setBackground(Color.BLACK);
+        setPreferredSize(new Dimension(300, 400));
+        
+        // Create and start traffic light threads
+        redThread = new Thread(this, "Red-Light");
+        yellowThread = new Thread(this, "Yellow-Light"); 
+        greenThread = new Thread(this, "Green-Light");
+        
+        redThread.start();
+        yellowThread.start();
+        greenThread.start();
+    }
+    
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        // Draw traffic light box
+        g.setColor(Color.GRAY);
+        g.fillRect(100, 50, 100, 250);
+        
+        // Draw red light
+        g.setColor(currentLight == Color.RED ? Color.RED : Color.DARK_GRAY);
+        g.fillOval(125, 70, 50, 50);
+        
+        // Draw yellow light
+        g.setColor(currentLight == Color.YELLOW ? Color.YELLOW : Color.DARK_GRAY);
+        g.fillOval(125, 140, 50, 50);
+        
+        // Draw green light
+        g.setColor(currentLight == Color.GREEN ? Color.GREEN : Color.DARK_GRAY);
+        g.fillOval(125, 210, 50, 50);
+        
+        // Display current light status
+        g.setColor(Color.WHITE);
+        g.drawString("Current Light: " + getLightName(), 80, 330);
+        g.drawString("Timer: " + lightTimer + "s", 120, 350);
+    }
+    
+    private String getLightName() {
+        if (currentLight == Color.RED) return "RED";
+        if (currentLight == Color.YELLOW) return "YELLOW";
+        return "GREEN";
+    }
+    
+    public void run() {
+        String threadName = Thread.currentThread().getName();
+        
+        while (true) {
             try {
-                if ("life".equals(task)) {
-                    System.out.println(getName() + " created");
-                    Thread.sleep(500);
-                    System.out.println(getName() + " running");
-                    Thread.sleep(500);
-                    System.out.println(getName() + " dead");
-                } else if ("numbers".equals(task)) {
-                    for (int i = 1; i <= 100; i++) System.out.print(i + " ");
-                } else if ("oddprime".equals(task)) {
-                    for (int i = 1; i <= 20; i++) if (getName().contains("Odd") ? i % 2 != 0 : isPrime(i)) System.out.print(i + " ");
-                } else if ("sync".equals(task)) {
-                    for (int i = 0; i < 5; i++) Counter.inc();
-                } else {
-                    System.out.println(getName() + " running with priority " + getPriority());
+                if (threadName.equals("Red-Light")) {
+                    synchronized (this) {
+                        currentLight = Color.RED;
+                        lightTimer = 5;
+                        for (int i = 5; i >= 0; i--) {
+                            lightTimer = i;
+                            repaint();
+                            Thread.sleep(1000);
+                        }
+                    }
                 }
-            } catch (Exception e) { System.out.println(e); }
+                else if (threadName.equals("Yellow-Light")) {
+                    synchronized (this) {
+                        currentLight = Color.YELLOW;
+                        lightTimer = 2;
+                        for (int i = 2; i >= 0; i--) {
+                            lightTimer = i;
+                            repaint();
+                            Thread.sleep(1000);
+                        }
+                    }
+                }
+                else if (threadName.equals("Green-Light")) {
+                    synchronized (this) {
+                        currentLight = Color.GREEN;
+                        lightTimer = 5;
+                        for (int i = 5; i >= 0; i--) {
+                            lightTimer = i;
+                            repaint();
+                            Thread.sleep(1000);
+                        }
+                    }
+                }
+                
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                break;
+            }
         }
     }
-    static class Counter {
-        static int value = 0;
-        synchronized static void inc() { value++; System.out.println(value); }
+    
+    public void stop() {
+        if (redThread != null) redThread.interrupt();
+        if (yellowThread != null) yellowThread.interrupt();
+        if (greenThread != null) greenThread.interrupt();
     }
-    static boolean isPrime(int n) {
-        if (n < 2) return false;
-        for (int i = 2; i * i <= n; i++) if (n % i == 0) return false;
-        return true;
-    }
-    public static void main(String[] args) throws Exception {
-        String mode = "thread_name";
-        if ("thread_name".equals(mode)) {
-            Thread t = Thread.currentThread();
-            System.out.println(t.getName());
-            return;
-        }
-        if ("thread_priority".equals(mode)) {
-            Thread t = Thread.currentThread();
-            System.out.println(t.getName() + " " + t.getPriority());
-            return;
-        }
-        if ("life_cycle".equals(mode)) {
-            new Worker("DemoThread", "life").start();
-            Thread.sleep(2000);
-            return;
-        }
-        if ("numbers_thread".equals(mode)) {
-            new Worker("Numbers", "numbers").start();
-            return;
-        }
-        if ("odd_prime_threads".equals(mode)) {
-            new Worker("OddThread", "oddprime").start();
-            new Worker("PrimeThread", "oddprime").start();
-            return;
-        }
-        if ("synchronization".equals(mode)) {
-            new Worker("One", "sync").start();
-            new Worker("Two", "sync").start();
-            return;
-        }
-        System.out.println("Thread demo for the slip.");
+    
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            JFrame frame = new JFrame("Traffic Signal Simulation");
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setResizable(false);
+            
+            Q2_ProgramName trafficLight = new Q2_ProgramName();
+            frame.add(trafficLight);
+            
+            frame.pack();
+            frame.setLocationRelativeTo(null);
+            frame.setVisible(true);
+            
+            // Add window listener to stop threads when window closes
+            frame.addWindowListener(new java.awt.event.WindowAdapter() {
+                @Override
+                public void windowClosing(java.awt.event.WindowEvent windowEvent) {
+                    trafficLight.stop();
+                }
+            });
+        });
     }
 }
