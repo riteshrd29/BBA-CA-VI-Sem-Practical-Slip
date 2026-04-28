@@ -6,35 +6,102 @@ public class Q1_ProgramName {
         return DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "root");
     }
     public static void main(String[] args) throws Exception {
-        String mode = "display";
+        // Check if employee ID is provided as command line argument
+        if (args.length == 0) {
+            System.out.println("Usage: java Q1_ProgramName <Employee_ID>");
+            System.out.println("Example: java Q1_ProgramName 101");
+            return;
+        }
+        
+        int employeeIdToDelete;
+        try {
+            employeeIdToDelete = Integer.parseInt(args[0]);
+        } catch (NumberFormatException e) {
+            System.out.println("Error: Employee ID must be a valid integer.");
+            return;
+        }
+        
         try (Connection con = connect()) {
-            if ("count".equals(mode)) {
-                Statement st = con.createStatement();
-                ResultSet rs = st.executeQuery("select count(*) from emp");
-                if (rs.next()) System.out.println("Count = " + rs.getInt(1));
-            } else if ("insert".equals(mode)) {
-                PreparedStatement ps = con.prepareStatement("insert into emp values(?,?,?)");
-                ps.setInt(1, 1); ps.setString(2, "A"); ps.setInt(3, 1000); ps.executeUpdate();
-                System.out.println("Inserted");
-            } else if ("crud".equals(mode)) {
-                System.out.println("CRUD menu can be added here.");
-            } else if ("display".equals(mode)) {
-                Statement st = con.createStatement();
-                ResultSet rs = st.executeQuery("select * from emp");
-                while (rs.next()) System.out.println(rs.getString(1) + " " + rs.getString(2));
-            } else if ("search".equals(mode)) {
-                System.out.println("Search example.");
-            } else if ("update_delete".equals(mode)) {
-                System.out.println("Update/Delete example.");
-            } else if ("scrollable".equals(mode)) {
-                System.out.println("Scrollable ResultSet example.");
-            } else if ("sales".equals(mode)) {
-                System.out.println("Sales between dates example.");
-            } else if ("student".equals(mode)) {
-                System.out.println("Student table example.");
-            } else {
-                System.out.println("Database program.");
+            // Create Emp table if not exists
+            Statement st = con.createStatement();
+            String createTableSQL = "CREATE TABLE IF NOT EXISTS Emp (" +
+                                   "ENo INT PRIMARY KEY, " +
+                                   "EName VARCHAR(50), " +
+                                   "Salary DECIMAL(10,2))";
+            st.execute(createTableSQL);
+            
+            // Insert sample data if table is empty
+            ResultSet countRs = st.executeQuery("SELECT COUNT(*) FROM Emp");
+            countRs.next();
+            if (countRs.getInt(1) == 0) {
+                System.out.println("Inserting sample employee data...");
+                String insertSQL = "INSERT INTO Emp (ENo, EName, Salary) VALUES (?, ?, ?)";
+                PreparedStatement insertPs = con.prepareStatement(insertSQL);
+                
+                Object[][] employees = {
+                    {101, "John Smith", 50000.00},
+                    {102, "Jane Doe", 60000.00},
+                    {103, "Mike Johnson", 45000.00},
+                    {104, "Sarah Williams", 55000.00},
+                    {105, "Robert Brown", 65000.00}
+                };
+                
+                for (Object[] emp : employees) {
+                    insertPs.setInt(1, (Integer) emp[0]);
+                    insertPs.setString(2, (String) emp[1]);
+                    insertPs.setDouble(3, (Double) emp[2]);
+                    insertPs.executeUpdate();
+                }
+                insertPs.close();
+                System.out.println("Sample data inserted.");
             }
+            countRs.close();
+            
+            // Display all employees before deletion
+            System.out.println("\n--- Employee Records Before Deletion ---");
+            ResultSet beforeRs = st.executeQuery("SELECT * FROM Emp ORDER BY ENo");
+            boolean employeeExists = false;
+            while (beforeRs.next()) {
+                System.out.println("ENo: " + beforeRs.getInt("ENo") + 
+                                 ", EName: " + beforeRs.getString("EName") + 
+                                 ", Salary: " + beforeRs.getDouble("Salary"));
+                if (beforeRs.getInt("ENo") == employeeIdToDelete) {
+                    employeeExists = true;
+                }
+            }
+            beforeRs.close();
+            
+            if (!employeeExists) {
+                System.out.println("\nEmployee with ID " + employeeIdToDelete + " not found!");
+                return;
+            }
+            
+            // Delete the specified employee using PreparedStatement
+            String deleteSQL = "DELETE FROM Emp WHERE ENo = ?";
+            PreparedStatement deletePs = con.prepareStatement(deleteSQL);
+            deletePs.setInt(1, employeeIdToDelete);
+            
+            int rowsAffected = deletePs.executeUpdate();
+            
+            if (rowsAffected > 0) {
+                System.out.println("\nSuccessfully deleted employee with ID: " + employeeIdToDelete);
+                
+                // Display all employees after deletion
+                System.out.println("\n--- Employee Records After Deletion ---");
+                ResultSet afterRs = st.executeQuery("SELECT * FROM Emp ORDER BY ENo");
+                while (afterRs.next()) {
+                    System.out.println("ENo: " + afterRs.getInt("ENo") + 
+                                     ", EName: " + afterRs.getString("EName") + 
+                                     ", Salary: " + afterRs.getDouble("Salary"));
+                }
+                afterRs.close();
+            } else {
+                System.out.println("\nFailed to delete employee with ID: " + employeeIdToDelete);
+            }
+            
+            deletePs.close();
+            st.close();
+            System.out.println("\nProgram completed successfully!");
         }
     }
 }

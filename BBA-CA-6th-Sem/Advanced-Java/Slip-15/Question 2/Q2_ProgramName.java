@@ -1,40 +1,157 @@
-// Question: Write a Java program to accept the details of Student (RNo, SName, Per, Gender, Class) and store into the database. (Use appropriate Swing Components and PreparedStatement Interface). [25 M]
+// Question: Write a Java program to accept details of Student (RNo, SName, Per, Gender, Class) and store into the database. (Use appropriate Swing Components and PreparedStatement Interface). [25 M]
 import java.sql.*;
-public class Q2_ProgramName {
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class Q2_ProgramName extends JFrame {
     static Connection connect() throws Exception {
         Class.forName("com.mysql.cj.jdbc.Driver");
         return DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "root");
     }
-    public static void main(String[] args) throws Exception {
-        String mode = "display";
-        try (Connection con = connect()) {
-            if ("count".equals(mode)) {
+    
+    private JTextField txtRNo, txtSName, txtPer, txtClass;
+    private JRadioButton rbMale, rbFemale;
+    private JButton btnInsert, btnDisplay, btnClear;
+    private JTextArea taDisplay;
+    
+    public Q2_ProgramName() {
+        setTitle("Student Management System");
+        setSize(500, 400);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLayout(new BorderLayout());
+        
+        // Input Panel
+        JPanel inputPanel = new JPanel(new GridLayout(6, 2, 5, 5));
+        
+        inputPanel.add(new JLabel("Roll Number:"));
+        txtRNo = new JTextField();
+        inputPanel.add(txtRNo);
+        
+        inputPanel.add(new JLabel("Student Name:"));
+        txtSName = new JTextField();
+        inputPanel.add(txtSName);
+        
+        inputPanel.add(new JLabel("Percentage:"));
+        txtPer = new JTextField();
+        inputPanel.add(txtPer);
+        
+        inputPanel.add(new JLabel("Gender:"));
+        JPanel genderPanel = new JPanel();
+        rbMale = new JRadioButton("Male");
+        rbFemale = new JRadioButton("Female");
+        ButtonGroup bg = new ButtonGroup();
+        bg.add(rbMale);
+        bg.add(rbFemale);
+        genderPanel.add(rbMale);
+        genderPanel.add(rbFemale);
+        inputPanel.add(genderPanel);
+        
+        inputPanel.add(new JLabel("Class:"));
+        txtClass = new JTextField();
+        inputPanel.add(txtClass);
+        
+        // Button Panel
+        JPanel buttonPanel = new JPanel();
+        btnInsert = new JButton("Insert");
+        btnDisplay = new JButton("Display All");
+        btnClear = new JButton("Clear");
+        
+        btnInsert.addActionListener(e -> insertStudent());
+        btnDisplay.addActionListener(e -> displayStudents());
+        btnClear.addActionListener(e -> clearFields());
+        
+        buttonPanel.add(btnInsert);
+        buttonPanel.add(btnDisplay);
+        buttonPanel.add(btnClear);
+        
+        // Display Area
+        taDisplay = new JTextArea(10, 40);
+        taDisplay.setEditable(false);
+        JScrollPane scrollPane = new JScrollPane(taDisplay);
+        
+        add(inputPanel, BorderLayout.NORTH);
+        add(buttonPanel, BorderLayout.CENTER);
+        add(scrollPane, BorderLayout.SOUTH);
+    }
+    
+    private void insertStudent() {
+        try {
+            int rno = Integer.parseInt(txtRNo.getText());
+            String sname = txtSName.getText();
+            double per = Double.parseDouble(txtPer.getText());
+            String gender = rbMale.isSelected() ? "Male" : "Female";
+            String className = txtClass.getText();
+            
+            try (Connection con = connect()) {
+                // Create Student table if not exists
                 Statement st = con.createStatement();
-                ResultSet rs = st.executeQuery("select count(*) from emp");
-                if (rs.next()) System.out.println("Count = " + rs.getInt(1));
-            } else if ("insert".equals(mode)) {
-                PreparedStatement ps = con.prepareStatement("insert into emp values(?,?,?)");
-                ps.setInt(1, 1); ps.setString(2, "A"); ps.setInt(3, 1000); ps.executeUpdate();
-                System.out.println("Inserted");
-            } else if ("crud".equals(mode)) {
-                System.out.println("CRUD menu can be added here.");
-            } else if ("display".equals(mode)) {
-                Statement st = con.createStatement();
-                ResultSet rs = st.executeQuery("select * from emp");
-                while (rs.next()) System.out.println(rs.getString(1) + " " + rs.getString(2));
-            } else if ("search".equals(mode)) {
-                System.out.println("Search example.");
-            } else if ("update_delete".equals(mode)) {
-                System.out.println("Update/Delete example.");
-            } else if ("scrollable".equals(mode)) {
-                System.out.println("Scrollable ResultSet example.");
-            } else if ("sales".equals(mode)) {
-                System.out.println("Sales between dates example.");
-            } else if ("student".equals(mode)) {
-                System.out.println("Student table example.");
-            } else {
-                System.out.println("Database program.");
+                st.execute("CREATE TABLE IF NOT EXISTS Student (" +
+                          "RNo INT PRIMARY KEY, " +
+                          "SName VARCHAR(50), " +
+                          "Per DECIMAL(5,2), " +
+                          "Gender VARCHAR(10), " +
+                          "Class VARCHAR(20))");
+                
+                // Insert student record
+                PreparedStatement ps = con.prepareStatement(
+                    "INSERT INTO Student (RNo, SName, Per, Gender, Class) VALUES (?, ?, ?, ?, ?)");
+                ps.setInt(1, rno);
+                ps.setString(2, sname);
+                ps.setDouble(3, per);
+                ps.setString(4, gender);
+                ps.setString(5, className);
+                
+                ps.executeUpdate();
+                ps.close();
+                st.close();
+                
+                JOptionPane.showMessageDialog(this, "Student record inserted successfully!");
+                clearFields();
+                displayStudents();
             }
+        } catch (Exception ex) {
+            JOptionPane.showMessageDialog(this, "Error: " + ex.getMessage());
         }
+    }
+    
+    private void displayStudents() {
+        try (Connection con = connect()) {
+            Statement st = con.createStatement();
+            ResultSet rs = st.executeQuery("SELECT * FROM Student ORDER BY RNo");
+            
+            StringBuilder sb = new StringBuilder();
+            sb.append("Roll No\tName\t\tPercentage\tGender\tClass\n");
+            sb.append("------------------------------------------------------------\n");
+            
+            while (rs.next()) {
+                sb.append(rs.getInt("RNo")).append("\t")
+                  .append(rs.getString("SName")).append("\t\t")
+                  .append(rs.getDouble("Per")).append("\t\t")
+                  .append(rs.getString("Gender")).append("\t")
+                  .append(rs.getString("Class")).append("\n");
+            }
+            
+            taDisplay.setText(sb.toString());
+            rs.close();
+            st.close();
+        } catch (Exception ex) {
+            JOptionPane.showMessageDialog(this, "Error displaying students: " + ex.getMessage());
+        }
+    }
+    
+    private void clearFields() {
+        txtRNo.setText("");
+        txtSName.setText("");
+        txtPer.setText("");
+        txtClass.setText("");
+        rbMale.setSelected(false);
+        rbFemale.setSelected(false);
+    }
+    
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            new Q2_ProgramName().setVisible(true);
+        });
     }
 }
